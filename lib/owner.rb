@@ -1,4 +1,4 @@
-binding.pry
+require 'pry'
 
 class Owner
   attr_accessor :name
