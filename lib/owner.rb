@@ -40,6 +40,6 @@ class Owner
     @pets[:dogs] << Dog.new(dog_name)
   end
 
-  
+
 
 end
