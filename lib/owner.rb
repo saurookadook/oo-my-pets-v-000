@@ -29,7 +29,7 @@ class Owner
   end
 
   def pets=(pets)
-    @pets = {pets}
+    @pets = {}
   end
 
 
