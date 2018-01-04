@@ -28,6 +28,11 @@ class Owner
     "I am a human."
   end
 
+  def pets=(pets)
+    @pets = {pets}
+  end
+    
+
   def buy_fish(fish_name)
     @pets[:fishes] << Fish.new(fish_name)
   end
