@@ -29,7 +29,6 @@ class Owner
   end
 
   def pets=(pets)
-    binding.pry
     @pets = pets
   end
 
