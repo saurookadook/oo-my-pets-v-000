@@ -72,4 +72,7 @@ class Owner
     @pets.clear
   end
 
+  def list_pets
+    "I have #{@pets[:fishes].count}"
+
 end
