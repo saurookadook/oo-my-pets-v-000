@@ -10,4 +10,12 @@ class Owner
     @@all
   end
 
+  def self.reset_all
+    @@all.count
+    @@all.clear
+  end
+
+  def species
+    
+
 end
